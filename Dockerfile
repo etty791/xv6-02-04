@@ -12,8 +12,7 @@ RUN apt-get -qq update && \
                     gcc-multilib \
                     qemu-system \
                     
-                    
-    &&git clone https://github.com/mit-pdos/xv6-02-04-public.git  xv6-02-04 \
+    &&git clone https://github.com/mit-pdos/xv6-public.git  xv6 \
     &&chmod +x xv6-02-04/*.pl \
 ####
 #    5 lines for general cleanning, -15% in size  
